@@ -1,0 +1,65 @@
+  <?php 
+
+    include_once ("funciones.php");
+    
+?>
+  <!-- Navbar Start -->
+            <div class="navbar-custom">
+                <div class="container">
+                <div id="navigation">
+                    <!-- Navigation Menu-->
+                    <ul class="navigation-menu">
+                        <li class="has-submenu active">
+                            <a href="index.php"><i class="md md-dashboard"></i>Inicio</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="#"><i class="md md-person"></i>Clientes</a>
+                            <ul class="submenu">
+                                <li><a href="ui-buttons.html"> Consultar Cliente</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-submenu">
+                            <a href="#"><i class="md md-people"></i>Proveedores</a>
+                            <ul class="submenu">
+                                <li><a href="components-grid.html">Consultar Proveedor</a></li>                               
+                            </ul>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="#"><i class="md md-markunread-mailbox"></i>Productos</a>
+                            <ul class="submenu">
+                                <li><a href="components-grid.html">Consultar Producto</a></li>                               
+                                <li><a href="components-grid.html">Administrar Existencia de Productos</a></li>                               
+                                <li><a href="components-grid.html">Realizar Compra</a></li>                               
+                                <li><a href="components-grid.html">Admnistrar Insumos</a></li>
+                                <li><a href="components-grid.html">Administrar Existencia de Insumos</a></li>                                
+                                <li><a href="components-grid.html">Categorias</a></li>                                
+                            </ul>
+                        </li>
+
+                        <li class="has-submenu">
+                            <a href="#"><i class="md md-settings"></i>Administración</a>
+                            <ul class="submenu">
+                                <li class="has-submenu">
+                                    <a href="#">Usuarios</a>
+                                    <ul class="submenu">                           
+                                        <li><a href="icons-materialdesign.html">Consultar Usuario</a></li>
+                                        <li><a href="icons-themifyicon.html"> Administrar Cargos y Permisos</a></li>
+                                        <li><a href="icons-ionicons.html">Administrar Contraseñas</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="has-submenu">
+                                    <a href="#">Sucursales</a>
+                                    <ul class="submenu">                                        
+                                        <li><a href="form-advanced.html">Consultar Sucursal</a></li>
+                                        <li><a href="form-validation.html">Imagen de Presentación</a></li>                            
+                                    </ul>
+                                </li>                           
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- End navigation menu -->
+                </div>
+            </div>
+            </div>
